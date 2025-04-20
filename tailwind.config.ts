@@ -61,7 +61,20 @@ export default {
 					'accent-foreground': 'hsl(var(--sidebar-accent-foreground))',
 					border: 'hsl(var(--sidebar-border))',
 					ring: 'hsl(var(--sidebar-ring))'
-				}
+				},
+                highlight: "#8B5CF6",
+                boost: {
+                    purple: "#9b87f5",
+                    blue: "#0EA5E9",
+                    pink: "#D946EF",
+                    orange: "#F97316",
+                    green: "#10B981"
+                },
+                priority: {
+                    low: "#10B981",
+                    medium: "#F97316",
+                    high: "#DC2626"
+                }
 			},
 			borderRadius: {
 				lg: 'var(--radius)',
